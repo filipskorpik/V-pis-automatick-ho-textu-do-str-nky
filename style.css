@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: sandybrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+.down {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 15px;
+    background-color: rgb(193, 131, 55);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 50px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+label {
+    margin-right: 10px;
+}
